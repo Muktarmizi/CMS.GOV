@@ -1,12 +1,10 @@
 package baseutil;
 
 import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import pages.HomePage;
 
 public class BaseClass {
@@ -15,17 +13,21 @@ public class BaseClass {
 	
 	public HomePage homePage; 
 	
+
+	
 	@BeforeMethod	
 	public void setUp() {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mizim\\eclipse-workspace\\gov.cms.portal.augest2024\\driver\\chromedriver.exe");	
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mizim\\eclipse-workspace\\com.Enthrallit.portal.2024\\driver\\chromedriver.exe");	
 		
 		driver = new ChromeDriver();
 		
+		driver.manage().window().maximize();
+		
 		driver.manage().deleteAllCookies();
 		
-		driver.get("https://portal.cms.gov/portal/");
+		driver.get("https://enthrallit.com/accounts/login/?next=/accounts/login/");
 		
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 	
@@ -35,9 +37,10 @@ public class BaseClass {
 	
 	@AfterMethod
 	public void tearUp() {
-		driver.quit();
+		//driver.quit();
 	}
 	
+
 	
 	
 	

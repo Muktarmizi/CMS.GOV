@@ -14,12 +14,12 @@ public class HomePage {
 
 		PageFactory.initElements(driver, this);
 	}
-	//Testtt
+	
 
-	@FindBy(xpath = "//em[@id='cms-homepage-header-logo-unauth' and @class='cms-icon cms-sprite-loggedout ms-3']")
+	@FindBy(xpath = "//a[@id='logo-id']")
 	WebElement logo;
 
-	@FindBy(id = "cms-login-userId")
+	@FindBy(id = "Enthrallit-login-userId")
 	WebElement userId;
 
 	public void clickLogo() {

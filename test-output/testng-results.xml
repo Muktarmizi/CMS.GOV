@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-05T20:58:35 EST" name="Testing_suite" finished-at="2024-11-05T20:58:52 EST" duration-ms="17408">
+  <suite started-at="2024-11-07T21:07:56 EST" name="Default suite" finished-at="2024-11-07T21:08:13 EST" duration-ms="17012">
     <groups>
     </groups>
-    <test started-at="2024-11-05T20:58:35 EST" name="Test" finished-at="2024-11-05T20:58:52 EST" duration-ms="17408">
+    <test started-at="2024-11-07T21:07:56 EST" name="Default test" finished-at="2024-11-07T21:08:13 EST" duration-ms="17012">
       <class name="pagesTest.HomepageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pagesTest.HomepageTest@29215f06]" started-at="2024-11-05T20:58:35 EST" name="setUp" finished-at="2024-11-05T20:58:43 EST" duration-ms="8125" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pagesTest.HomepageTest@48aca48b]" started-at="2024-11-07T21:07:56 EST" name="setUp" finished-at="2024-11-07T21:08:07 EST" duration-ms="11019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickLogoTest()[pri:0, instance:pagesTest.HomepageTest@29215f06]" started-at="2024-11-05T20:58:43 EST" name="clickLogoTest" finished-at="2024-11-05T20:58:51 EST" duration-ms="7955" status="PASS">
+        <test-method signature="clickLogoTest()[pri:0, instance:pagesTest.HomepageTest@48aca48b]" started-at="2024-11-07T21:08:07 EST" name="clickLogoTest" finished-at="2024-11-07T21:08:13 EST" duration-ms="5747" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogoTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomepageTest@29215f06]" started-at="2024-11-05T20:58:51 EST" name="tearUp" finished-at="2024-11-05T20:58:52 EST" duration-ms="1108" status="PASS">
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:pagesTest.HomepageTest@48aca48b]" started-at="2024-11-07T21:08:13 EST" name="tearUp" finished-at="2024-11-07T21:08:13 EST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
       </class> <!-- pagesTest.HomepageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Testing_suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

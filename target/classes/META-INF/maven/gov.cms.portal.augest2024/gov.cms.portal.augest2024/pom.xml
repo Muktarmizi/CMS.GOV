@@ -5,14 +5,11 @@
 	<groupId>gov.cms.portal.augest2024</groupId>
 	<artifactId>gov.cms.portal.augest2024</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CMS Enterprise Portal FrameWork</name>
-	<description>This FrameWork is about portal of center for medicaid and
-		medicare service</description>
+	<name>Enthrallit Portal FrameWork</name>
+	<description>This FrameWork is about portal of Enthrall IT</description>
 
 
 	<dependencies>
-
-
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -20,17 +17,14 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.26.0</version>
 		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<!--TestNg is used for test the functionality of the Application-->
-
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.10.2</version>
 		</dependency>
 	</dependencies>
-
 <build>
 		<plugins>
 			<plugin>

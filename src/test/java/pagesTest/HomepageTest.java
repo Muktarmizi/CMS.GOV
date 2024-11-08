@@ -10,7 +10,6 @@ public class HomepageTest extends BaseClass {
 	@Test
 	public void clickLogoTest() {
 		homePage.clickLogo();
-
 	}
 
 }
